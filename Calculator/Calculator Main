@@ -8,7 +8,26 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class></div>
-    <p>hello world</p>
+    <div class="calculator"></div>
+    <div class="calculator-keys">
+      <button>9</button>
+      <button>8</button>
+      <button>7</button>
+      <button>6</button>
+      <button>5</button>
+      <button>4</button>
+      <button>3</button>
+      <button>2</button>
+      <button>1</button>
+      <button>0</button>
+      <button>.</button>
+      <button>+</button>
+      <button>-</button>
+      <button>*</button>
+      <button>/</button>
+      <button>C</button>
+      <button>CE</button>
+    </div>
+    <div class="calculator-output"></div>
   </body>
 </html>
