@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
   </head>
   <body>
     <div class="calculator"></div>
     <div class="calculator-keys">
+      <div class="calculator-output">0</div>
       <button>9</button>
       <button>8</button>
       <button>7</button>
@@ -20,14 +21,14 @@
       <button>2</button>
       <button>1</button>
       <button>0</button>
-      <button>.</button>
-      <button>+</button>
-      <button>-</button>
-      <button>*</button>
-      <button>/</button>
+      <button class="calculator-operator">.</button>
+      <button class="calculator-operator">+</button>
+      <button class="calculator-operator">-</button>
+      <button class="calculator-operator">*</button>
+      <button class="calculator-operator">/</button>
       <button>C</button>
+      <button>=</button>
       <button>CE</button>
     </div>
-    <div class="calculator-output"></div>
   </body>
 </html>
