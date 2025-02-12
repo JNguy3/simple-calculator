@@ -9,7 +9,6 @@ calculator {
 button {
     height: 10rem;
     display: grid;
-    color:  red; 
     justify-content: center;
     align-items: center;
 }
